@@ -14,11 +14,11 @@ public class MyTest {
             BufferedReader br = new BufferedReader(in_file);
             BufferedWriter bw = new BufferedWriter(out_file);
 
-
             String line = br.readLine();
             while(line != null){
                 System.out.println(line);
                 bw.write(line +"\n");
+//                bw.newLine();
                 line = br.readLine();
             }
 
@@ -84,6 +84,6 @@ public class MyTest {
     }
 
     public static void main(String args[]){
-        f4();
+        f1();
     }
 }
